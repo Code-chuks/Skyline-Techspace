@@ -1,0 +1,240 @@
+body{
+    background-color: gray;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+
+.container-form{
+    width: 50%;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    height: 120vh;
+}
+
+input[type=text]{
+    width: 50%;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid lightblue;
+    text-indent: 20px;
+}
+
+input[type=text]:focus{
+    
+    border-radius: 15px;
+    border: 1px solid gray;
+    outline: none;
+   
+}
+
+::placeholder{
+   font-size: 20px;
+   color: lightblue;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+input[type=email]{
+    width: 50%;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid lightblue;
+    text-indent: 25px;
+}
+
+input[type=email]:focus{
+    
+    border-radius: 15px;
+    border: 1px solid gray;
+    outline: none;
+   
+}
+
+
+
+.form-user{
+    position: relative;
+   
+}
+
+.user{
+    position: absolute;
+    top: 20%;
+    left: 25% ;
+    font-size: 20px;
+    
+}
+
+.email-form{
+    position: absolute;
+    top: 19%;
+    left: 24% ;
+    font-size: 25px;
+    
+}
+
+.email{
+    position: relative;
+    margin-top: 30px;
+}
+
+
+input[type=tel]{
+    width: 50%;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid lightblue;
+    
+}
+
+input[type=tel]:focus{
+    
+    border-radius: 15px;
+    border: 1px solid gray;
+    outline: none;
+   
+}
+
+.form-class{
+    margin-top: 30px;
+}
+
+input[type=password]{
+    width: 50%;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid lightblue;
+    
+}
+
+input[type=password]:focus{
+    
+    border-radius: 15px;
+    border: 1px solid gray;
+    outline: none;
+   
+}
+
+.form-main{
+
+    padding-bottom: 50px;
+}
+
+.btn-btn{
+    background-color: rgb(56, 177, 86);
+    padding: 15px 40px;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    width: 50%;
+}
+
+/* hereis the divider with or */
+
+.divider{
+    display: flex;
+    align-items: center;
+    margin: 15px;
+}
+
+.divider::before, .divider::after{
+    content: "";
+    padding: 1px;
+    background-color: lightblue;
+    flex: 1;
+    margin: 10px 3px;
+}
+
+.divider-bg{
+    background-color: white;
+    padding: 15px;
+    border-radius: 50px;
+    border: 1px solid lightblue;
+}
+
+/* social media button */
+
+.btn-social{
+    background-color: #3b5998;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 15px;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.btn-social:nth-child(2){
+    background-color: #26a7de;
+}
+
+.btn-social:nth-child(3){
+    background-color: #d10e00;
+}
+
+
+
+@media(max-width:897px){
+    .container-form{
+        width: 100%;
+    }
+
+    .btn-social{
+        padding: 10px 20px;
+        margin: 5px;
+        width: 100%;
+    }    
+
+    .container-form p{
+        padding: 0px 20px;
+    }
+
+    input[type=email]{
+        width: 70%;
+       
+    }
+
+    input[type=password]{
+        width: 70%;
+ 
+    }
+
+    input[type=tel]{
+        width: 70%;
+       
+    }
+
+    input[type=text]{
+        width: 70%;
+       
+    }
+
+    .email-form{
+        position: absolute;
+        top: 25%;
+        left: 10% ;
+        font-size: 20px;
+        
+    }
+
+    .user{
+        position: absolute;
+        top: 22%;
+        left: 10% ;
+        font-size: 20px;
+        
+    }
+
+    body{
+        overflow-x:hidden ;
+    }
+
+
+}
+
+
+
+
+
